@@ -1,0 +1,146 @@
+/*DEFAULT STYING*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    max-width: 100%;
+}
+
+/*Navigation*/
+.navigation
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    overflow: hidden;
+    background-color: blue;
+}
+.navigation a
+{
+    float: left;
+    color: #fff700;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:x-large;
+}
+.navigation a:hover
+{ 
+    background-color: white;
+    color: blue;
+}
+.navigation a:active
+{
+    color: #fff700;
+}
+
+/*Header*/
+.LogoHeader
+{
+    background-color: #fff700;
+}
+
+/*Main Text*/
+
+h1
+{   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-size: xx-large;
+}
+
+p 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: blue;
+}
+
+u
+{
+    color: blue;
+}
+
+/*Horizontal Rule*/
+hr
+{
+    height: 10px;
+    background-color: blue;
+    color: blue;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    color: #fff700;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    justify-content: space-evenly;
+    }
+
+    .address, .sitemap, .social
+{
+    width: calc(100%/3);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: row;
+    color: #fff700;
+}
+
+.address, .address p {
+    flex-direction: column;
+    color: #fff700;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+
+}
+
+.sitemap, .sitemap a, .sitemap p {
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    color: #fff700;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.sitemap li{
+    list-style-type: none;
+}
+
+.sitemap-li a:hover
+{
+   text-decoration-line: underline;
+   text-decoration-color: #fff700;
+   text-decoration-style: solid;
+}
+
+.social, .social a, .social p {
+    flex-direction: row;
+    padding: 0.5rem;
+    color: #fff700;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+/*HOME PAGE STYLING*/
+
+
+
+/*HISTORY PAGE STYLING*/
+
+
+
+/*CONTACT PAGE STYLING*/
