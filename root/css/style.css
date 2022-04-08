@@ -140,7 +140,33 @@ footer{
 
 
 /*HISTORY PAGE STYLING*/
+.history {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.historyimage, .historytext
+{
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.historyimage img
+{
+width: 100%;
+justify-content: left;
+}
+
+.historytext p{
+    margin-bottom: .5rem;
+}
 
 
 /*CONTACT PAGE STYLING*/
